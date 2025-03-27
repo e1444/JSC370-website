@@ -8,3 +8,21 @@ output:
 ---
 
 This is my JSC370 Final Project website.
+
+## Showcasing plots {.tabset}
+
+```{r load figures, include=FALSE}
+source("lab/process_starbucks_data.R")
+```
+
+### Figure 1
+
+```{r echo=FALSE, warning=FALSE}
+p1
+```
+
+### Figure 2
+
+```{r echo=FALSE}
+p2
+```
