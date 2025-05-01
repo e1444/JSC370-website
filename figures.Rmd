@@ -1,0 +1,38 @@
+---
+title: "JSC370 Final Project Figures"
+author: "Eric Liang"
+output: 
+    html_document:
+        toc: TRUE
+        toc_float: TRUE
+---
+
+## Showcasing plots {.tabset}
+
+```{r load figures, include=FALSE, warning=FALSE}
+source("lab/final_figs.R")
+```
+
+### Figure 1
+
+```{r echo=FALSE, warning=FALSE}
+p1
+```
+
+Figure 1: Sample measurement by location. Only 1000 points are sampled, for performance. We can observe that there are only a couple sites (and locations) that collect sample measurements.
+
+### Figure 2
+
+```{r echo=FALSE}
+p2
+```
+
+Figure 2: Sample measurement by month. We can observe that there are only a couple sites (and locations) that collect sample measurements.
+
+### Figure 3
+
+```{r echo=FALSE}
+p3
+```
+
+Figure 3: Sample measurement distribution by county. We can observe that each county has a different distribution of sample measurements. The dropdown menu allows you to select the county you want to see the distribution for. Note that we do not have data from every California county, so some counties do not show up in the dropdown menu.
