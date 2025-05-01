@@ -1,6 +1,6 @@
 ---
 title: "JSC370 Final Project"
-author: "Your Name"
+author: "Eric Liang"
 output: 
     html_document:
         toc: TRUE
@@ -12,7 +12,7 @@ This is my JSC370 Final Project website.
 ## Showcasing plots {.tabset}
 
 ```{r load figures, include=FALSE}
-source("lab/process_starbucks_data.R")
+source("lab/final_figs.R")
 ```
 
 ### Figure 1
@@ -25,4 +25,10 @@ p1
 
 ```{r echo=FALSE}
 p2
+```
+
+### Figure 3
+
+```{r echo=FALSE}
+p3
 ```
