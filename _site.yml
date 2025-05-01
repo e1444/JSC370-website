@@ -1,7 +1,7 @@
-name: "JSC370 Final Project"
+name: "JSC370 Final Project - Air Quality Inference"
 output_dir: "docs"
 navbar:
-  title: "JSC370 Final Project"
+  title: "JSC370 Final Project - Air Quality Inference"
   left:
     - text: "Home"
       href: index.html

@@ -19,7 +19,9 @@ source("lab/final_figs.R")
 p1
 ```
 
-Figure 1: Sample measurement by location. Only 1000 points are sampled, for performance. We can observe that there are only a couple sites (and locations) that collect sample measurements.
+Figure 1: Sample measurement by location. Only 1000 points are sampled, for performance. 
+
+We can observe that there are only a couple sites (and locations) that collect sample measurements.
 
 ### Figure 2
 
@@ -27,7 +29,9 @@ Figure 1: Sample measurement by location. Only 1000 points are sampled, for perf
 p2
 ```
 
-Figure 2: Sample measurement by month. We can observe that there are only a couple sites (and locations) that collect sample measurements.
+Figure 2: Sample measurement by month. This is an alternative way to visualize the sample measurements.
+
+We can observe that the ozone measurements are higher during the summer months.
 
 ### Figure 3
 
@@ -36,3 +40,5 @@ p3
 ```
 
 Figure 3: Sample measurement distribution by county. We can observe that each county has a different distribution of sample measurements. The dropdown menu allows you to select the county you want to see the distribution for. Note that we do not have data from every California county, so some counties do not show up in the dropdown menu.
+
+We can observe that zero-inflation is present in some states, but not others. This fact requires further investigation.
